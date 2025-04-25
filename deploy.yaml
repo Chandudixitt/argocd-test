@@ -17,9 +17,9 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: tomcat:latest
+        image: nginx:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         volumeMounts:
           #- name: nginx-storage
           #mountPath: /usr/share/nginx
