@@ -11,12 +11,11 @@ spec:
     path:
   destination:
     server: https://kubernetes.default.svc
-    namespace: argonsdemo
+    namespace: demo-ns
 
   syncPolicy:
     syncOptions: 
     - CreateNamespace=true
-
 
     automated:
       selfHeal: true
